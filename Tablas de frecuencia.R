@@ -61,3 +61,5 @@ Tabla2<-transform(Tabla_clases,
                   freqAc=cumsum(Freq),
                   Rel=round(prop.table(Freq),3),
                   RelAc=round(cumsum(prop.table(Freq)),3))
+#3.- Visualización de la tabla
+Tabla2
